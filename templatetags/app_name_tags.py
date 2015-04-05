@@ -4,4 +4,5 @@ from __future__ import print_function, unicode_literals, division
 
 from django import template
 
+
 register = template.Library()

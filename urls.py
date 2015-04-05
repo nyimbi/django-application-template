@@ -2,9 +2,11 @@
 
 from __future__ import print_function, unicode_literals, division
 
-from django.conf.urls import patterns, url
+from django.conf.urls import url
+
+from {{ app_name }} import views
 
 
-urlpatterns = patterns('',
-    # url(r'^$', '{{ app_name}}.views.home', name='home'),
-)
+urlpatterns = [
+    # url(r'^$', views.home, name='home'),
+]
