@@ -1,8 +1,6 @@
 # coding: utf-8
 
-from __future__ import print_function, unicode_literals, division
-
 try:
-    from celery.task import task
+    from celery import shared_task
 except ImportError:
     pass
