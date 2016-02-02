@@ -9,4 +9,4 @@ class DefaultConfig(AppConfig):
 
     def ready(self):
         # импортировать сигналы для их регистрации
-        import {{ app_name }}.signals
+        from . import signals

@@ -2,4 +2,4 @@
 
 from django import forms
 
-from {{ app_name }} import models as m
+from . import models as m
