@@ -1,21 +1,11 @@
-Шаблон приложения для Django
+Django Application Template
 ============================
-
-По-умолчанию шаблон ориентирован на поддержку
-последней (актуальной) версии Django.
-
-В шаблон приложения включены часто необходимые
-в крупных проектах модули, которые каждый раз 
-приходится создавать вручную.
-
-Шаблон этого приложения нацелен на работу с
-https://github.com/asyncee/django-application-template
-
+This is a default template for use on really large django projects. It includes all the necessary files for that purpose including signals, queries (for business logic), urls, admin, views and other necessary files
 
 Использование
 -------------
 
 .. code::
 
-    django-admin.py startapp --template=https://github.com/asyncee/django-application-template/zipball/master <имя приложения>
+    django-admin.py startapp --template=https://github.com/nyimbi/django-application-template/zipball/master <app_name>
 
